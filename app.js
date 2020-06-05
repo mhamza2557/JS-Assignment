@@ -677,6 +677,15 @@ for (let i = 0; i < 4; i++) {
 document.write('</h3>')
 
 // 14
+var devices = ['keyboard', 'mouse', 'printer', 'monitor'];
+
+document.write('<h3>Devies:<br>' + devices + '<br>')
+for (let i = 0; i < 4; i++) {
+    document.write('<br>Out:<br>' + devices.pop())
+}
+document.write('</h3>')
+
+// 15
 var manufacturers = ['Apple', 'Samsung', 'Motorola', 'Nokia', 'Sony', 'Haier'];
 
 document.write('<select>')
